@@ -1,0 +1,17 @@
+from microbit import *
+import utime
+
+# Sample every 50 ms (~20 Hz)
+SAMPLE_DELAY = 50  
+
+print("timestamp_ms,x,y,z")
+
+while True:
+    timestamp = running_time()
+    x = accelerometer.get_x()
+    y = accelerometer.get_y()
+    z = accelerometer.get_z()
+    
+    print(str(timestamp) + "," + str(x) + "," + str(y) + "," + str(z))
+    
+    utime.sleep_ms(SAMPLE_DELAY)
