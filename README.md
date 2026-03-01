@@ -88,8 +88,5 @@ https://github.com/aditya-ramki04/Topics_Mini_Projects/tree/main/Project_2B
 - Scikit-learn
 - Jupyter Notebook
 
----
 
-## 📌 Repository Structure
 
-Each mini-project is organized in its own folder:
